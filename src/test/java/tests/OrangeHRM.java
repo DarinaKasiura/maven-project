@@ -1,4 +1,6 @@
 package tests;
+import java.time.LocalDateTime;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -20,6 +22,7 @@ public class OrangeHRM {
 			System.out.println("fail");
 			System.out.println("Expected: " + expected);
 		}
+		System.out.println("TEST COMPLETED: " + LocalDateTime.now());
 	
 		
 	}

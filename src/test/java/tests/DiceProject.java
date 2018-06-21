@@ -32,12 +32,13 @@ public class DiceProject {
 	    driver.findElement(By.id("findTechJobs")).click();
 	  
 	    
+	    
 	}
 	
 	@AfterClass
 	public void close() {
 		driver.close();
-		System.out.println("TEST COMPLETED: " + LocalDateTime.now());
+		
 	}
 	
 	
