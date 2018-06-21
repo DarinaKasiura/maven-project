@@ -31,11 +31,6 @@ public class DiceProject {
 	    driver.findElement(By.id("search-field-location")).sendKeys("New York");
 	    driver.findElement(By.id("findTechJobs")).click();
 	  
-		String number = driver.findElement(By.id("posiCountMobileId")).getText();
-		System.out.println(number.toString());
-		String modified = number.replace(",", "_");
-		int result = Integer.parseInt(modified);
-		Assert.assertTrue(result > 0);
 	    
 	}
 	
